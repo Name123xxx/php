@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url(FB_IMG_1676982097256.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Sans-Serif;
+}
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0, 0.5);
+    padding: 75px;
+    width: 150px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+ h2 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    letter-spacing: 2px;
+    border: none;
+    
+    
+
+}
+
+.avatar {
+  font-size: 35px;
+  background: #696a6b;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  left: 42%;
+  top: 0%;
+  transform: translate(-50, -50);
+  border-radius: 25px;
+  box-shadow: 0 0 6px 3px black;
+}
+
+img { font-size: 35px;
+  background: #696a6b;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  left: 42%;
+  top: 0%;
+  transform: translate(-50, -50);
+  border-radius: 25px;
+  box-shadow: 0 0 6px 3px black;
+    
+}
+ .box-login{
+   display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border: 1px solid #888a8a;
+  padding: 8px 0;
+ }
+ 
+ .box-login i {
+     font-size: 15px;
+     color: white;
+     padding: 6px;
+ }
+ .box-login input{
+     width: 100%;
+     padding: 0 10px;
+     background: none;
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 10px;
+ }
+ .box-login input::placeholder{
+     color: #df0033; 
+ }
+ .btn-login{
+     width: 100%;
+     background: none;
+     padding: 8px;
+     border: 1px solid #888a8a;
+     font-size: 15px;
+     letter-spacing: 4px;
+     color: #c60000;
+     cursor: pointer;
+ }
+ .btn-login:haver{
+     background: rgba(0,0,0, 0.8);
+     
+ }
+      
+  .bottom{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+  }
+  
+ .bottom a {
+     color: #163b84;
+     font-size: 10px;
+     text-decoration: none;
+ }
+ .bottom a:haver{
+   text-decoration: underline;
+ }
